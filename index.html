@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registrarse</h2>
+        <form id="login">
+            <div class="form-group">
+                <input type="text" id="nombre" placeholder="Ingrese un nombre..." required>
+            </div>
+            <div class="form-group">
+                <input type="number" id="edad" placeholder="Ingrese su edad..." min="0" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="correo" placeholder="Ingrese su correo..." required>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensaje"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
